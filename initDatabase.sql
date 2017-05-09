@@ -71,5 +71,5 @@ CREATE TABLE `notice` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
-INSERT INTO admin (ID, NAME, PASSWORD, SEX, AGE, ADDR, MEMO) 
-values ('admin', '4QrcOUm6Wau+VuBX8g+IPg==', 'ÄÐ', '21', 'Î÷°²', 'Ä¬ÈÏ');
+INSERT INTO admin (NAME, PASSWORD, SEX, AGE, ADDR, MEMO)
+values ('admin', 'Qpf0SxOVUjUkWySXOZ16kw==', 'ç”·', '21', 'ï¿½ï¿½ï¿½ï¿½', 'Ä¬ï¿½ï¿½');
