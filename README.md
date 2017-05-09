@@ -1,5 +1,7 @@
-Property-Management-System<br>实习成果-小区物业管理系统
+# Property-Management-System<br>实习成果-小区物业管理系统
 ===========================================
+
+
 
  1. 小学期实习就弄了个这... 留作纪念.
  2. 技术上突飞猛进的三周, 教会了我一些做人的道理, 尤其是: 团队合作时的木桶效应....
@@ -7,3 +9,10 @@ Property-Management-System<br>实习成果-小区物业管理系统
  4. 其实并没有什么卵用...
  5. Bootstrap主题不错, 不过里面好多文件冗余还不敢删...
  6. 上传了完整的工程文件, docs目录里是部分文档...
+ 
+ 
+ 
+## 配置方法
+1、安装mysql数据库
+2、导入initDatabase.sql文件
+3、修改src/database.properties文件中 password = admin123 （如设置为mysql root用户密码）
