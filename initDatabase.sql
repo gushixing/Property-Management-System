@@ -73,3 +73,6 @@ CREATE TABLE `notice` (
 
 INSERT INTO admin (NAME, PASSWORD, SEX, AGE, ADDR, MEMO)
 values ('admin', 'Qpf0SxOVUjUkWySXOZ16kw==', '男', '21', '����', 'Ĭ��');
+INSERT INTO custom_account (username, password, ownerid, carid)
+VALUES ('123123', 'Qpf0SxOVUjUkWySXOZ16kw==', '123123', '123123');
+
