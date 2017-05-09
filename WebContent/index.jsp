@@ -1,9 +1,16 @@
+<%@ page import="com.cissst.entity.Admin" %>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
-	<% if (session.getAttribute("admin")==null) response.sendRedirect("login.jsp");%>
+	<%
+        //Admin test = new Admin();
+        //test.setId(3);
+        //test.setName("admin");
+        //test.setPassword("admin");
+        //session.setAttribute("admin",test);
+        if (session.getAttribute("admin") == null) response.sendRedirect("login.jsp");%>
     <!--
         ===
         This comment should NOT be removed.
@@ -34,7 +41,7 @@
     <link href='bower_components/colorbox/example3/colorbox.css' rel='stylesheet'>
     <link href='bower_components/responsive-tables/responsive-tables.css' rel='stylesheet'>
     <link href='bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css' rel='stylesheet'>
-    <link href='css/j query.noty.css' rel='stylesheet'>
+    <link href='css/jquery.noty.css' rel='stylesheet'>
     <link href='css/noty_theme_default.css' rel='stylesheet'>
     <link href='css/elfinder.min.css' rel='stylesheet'>
     <link href='css/elfinder.theme.css' rel='stylesheet'>
