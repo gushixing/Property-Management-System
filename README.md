@@ -13,6 +13,6 @@
  
  
 ## 配置方法
-1、安装mysql数据库
-2、导入initDatabase.sql文件
-3、修改src/database.properties文件中 password = admin123 （如设置为mysql root用户密码）
+* 安装mysql数据库
+* 导入initDatabase.sql文件
+* 修改src/database.properties文件中 password = admin123 （如设置为mysql root用户密码）
